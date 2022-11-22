@@ -10,7 +10,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-public class Splach_Screen extends AppCompatActivity {
+public class Splash_Screen extends AppCompatActivity {
     ImageView imageView;
 
     @Override
@@ -27,7 +27,7 @@ public class Splach_Screen extends AppCompatActivity {
             public void run() {
                 try {
                     sleep(3000);
-                    Intent intent=new Intent(Splach_Screen.this,Login.class);
+                    Intent intent=new Intent(Splash_Screen.this,Login.class);
                     startActivity(intent);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
