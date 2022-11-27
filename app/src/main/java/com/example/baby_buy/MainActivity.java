@@ -34,10 +34,11 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(linearLayoutManager);
         itemAdapter.setData(getListItem());
         recyclerView.setAdapter(itemAdapter);
+
         floatingBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(getApplicationContext(),Login.class);
+                Intent intent=new Intent(getApplicationContext(),AddItems.class);
                 startActivity(intent);
             }
         });

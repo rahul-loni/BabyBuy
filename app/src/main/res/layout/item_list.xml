@@ -27,7 +27,7 @@
                 app:cardPreventCornerOverlap="true"/>
             <TextView
                 android:id="@+id/itemName"
-                android:layout_width="wrap_content"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:text="Item Name"
                 android:textColor="@color/black"
@@ -39,7 +39,7 @@
                 />
             <TextView
                 android:id="@+id/itemPrice"
-                android:layout_width="wrap_content"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:text="Rs. 170 "
                 android:textColor="@color/black"
@@ -52,7 +52,7 @@
                 />
             <TextView
                 android:id="@+id/itemDis"
-                android:layout_width="150dp"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:text="I Need This Product "
                 android:textColor="@color/black"
@@ -61,6 +61,13 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="10sp"
                 />
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Patna Bihar India 803213"
+                android:layout_below="@id/itemDis"
+                android:layout_toRightOf="@id/itemImage"
+                android:drawableStart="@drawable/location"/>
 
         </RelativeLayout>
 
