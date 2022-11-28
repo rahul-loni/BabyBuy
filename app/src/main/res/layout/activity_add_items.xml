@@ -10,7 +10,7 @@
     android:gravity="center"
     tools:context=".AddItems">
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/aadImage"
+        android:id="@+id/addImage"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:src="@drawable/addimage"
@@ -85,6 +85,7 @@
             android:textColor="@color/black"/>
     </LinearLayout>
     <Button
+        android:id="@+id/btn_addItems"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:text="Click To Add Item "
